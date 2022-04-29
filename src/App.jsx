@@ -1,6 +1,9 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
+import Header from './Components/Header'
+import Content from './Components/Content'
 import { autoLogin } from './store/login'
+import './App.css'
 
 function App() {
 
@@ -12,7 +15,8 @@ function App() {
 
   return (
     <div className='container'>
-
+      <Header />
+      <Content />
     </div>
   )
 }
