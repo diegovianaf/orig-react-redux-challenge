@@ -1,0 +1,22 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.anime {
+  animation: anime 300ms forwards;
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+@keyframes anime {
+  to {
+    transform: initial;
+    opacity: 1;
+  }
+}
