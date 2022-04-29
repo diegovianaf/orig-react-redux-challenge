@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.login {
+  cursor: pointer;
+  background: white;
+  border: 2px solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 12px;
+  margin: 0;
+  padding: 0;
+  width: 12px;
+}
+
+.login.loading {
+  background: orange;
+}
+
+.login.loaded {
+  background: greenyellow;
+}
