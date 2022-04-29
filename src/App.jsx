@@ -11,7 +11,7 @@ function App() {
   }, [dispatch])
 
   return (
-    <div>
+    <div className='container'>
 
     </div>
   )
