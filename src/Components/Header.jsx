@@ -17,6 +17,7 @@ const Header = () => {
         className={`
           ${styles.login}
           ${loading ? styles.loading : ''}
+          ${user.data ? styles.loaded : ''}
         `}
       >
       </button>
